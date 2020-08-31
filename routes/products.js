@@ -1,8 +1,6 @@
 const express = require("express")
 const router = express.Router()
 const mongoFun = require("../mongoFun")
-const multer  = require('multer')
-const upload = multer({ dest: 'uploads/' })
 const fs = require('fs').promises;
 
 // {
@@ -21,14 +19,9 @@ router.get("/", async (req, res) => {
 })
 
 
-router.post("/",upload.single('avatar'), async (req, res) => {
-    // console.log("====================")
-    // console.log(req.file)
-    // console.log(req.body)
+router.post("/", async (req, res) => {
 
-    const contents = await fs.readFile(`uploads/${req.file.filename}`, {encoding: 'base64', decoding: 'utf8'});
-    req.body.imgURL = "data:image/jpeg;base64," + contents
-    console.log(req.body)
+    //console.log(req.body)
     let data = await mongoFun.insertProduct(req.body)
     // console.log(data)
     if (data) {
