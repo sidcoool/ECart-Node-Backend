@@ -1,5 +1,5 @@
 const { MongoClient, ObjectID } = require('mongodb')
-const uri = "mongodb+srv://sid:crud_123@cluster0.vzvup.mongodb.net/ecart?retryWrites=true&w=majority"
+const uri = "mongodb+srv://{username}:{password}@cluster0.vzvup.mongodb.net/ecart?retryWrites=true&w=majority"
 const Client = new MongoClient(uri, {useNewUrlParser: true, useUnifiedTopology: true})
 
 exports.getAll = async function getAll() {
