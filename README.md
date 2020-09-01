@@ -1,4 +1,4 @@
-# Project
+# Project Description
 ECart Node Backend API for adding, updating, retrieving, deleting services and goods such as electronics, fashion items, furniture, household goods, cars and bikes
 
 ## Built With
