@@ -19,7 +19,8 @@ ECart Node Backend API for adding, updating, retrieving, deleting services and g
 ```
 
 ## Sreenshots
-![Srceen](Screens/s1.png)
+![Screenshot](Screens/s1.png)
+![Screenshot](Screens/s1.png)
 
 
 ## Contact
