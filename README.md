@@ -2,7 +2,7 @@
 ECart Node Backend API for adding, updating, retrieving, deleting services and goods such as electronics, fashion items, furniture, household goods, cars and bikes
 
 ## Backend Repository
-[Go to Backend Repository](https://github.com/sidcoool/ECart-React-Frontend)
+[Go to Frontend Repository](https://github.com/sidcoool/ECart-React-Frontend)
 
 ## Built With
 - NodeJS
