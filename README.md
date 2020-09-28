@@ -4,6 +4,13 @@ ECart Node Backend API for adding, updating, retrieving, deleting services and g
 ## Frontend Repository
 [Go to Frontend Repository](https://github.com/sidcoool/ECart-React-Frontend)
 
+
+## Features
+- Login/Signup using Google and Logout
+- View Products.
+- Add your own personal Items
+- Add Products/Items in your Wishlist etc
+
 ## Built With
 - NodeJS
 - Express
@@ -14,6 +21,7 @@ ECart Node Backend API for adding, updating, retrieving, deleting services and g
 ├── index.js
 ├── mongoFun.js
 ├── package.json
+├── credentials.js
 ├── package-lock.json
 ├── README.md
 ├── routes
